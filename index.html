@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="flex-all-center">
+    
+    <div class="main-wrap">
+        <div class="input-wrap flex-all-center">
+            <input type="text" id="place-input" placeholder="Enter the place">
+            <button class="search-btn flex-all-center">Search</button>
+        </div>
+        <div class="output-wrap">
+            <div class="image_wrap flex-all-center">
+                <img src="https://www.visittnt.com/blog/wp-content/uploads/2018/08/Amer-Fort.jpg" alt="place">
+                <p></p>
+            </div>
+            
+            <div class="forecast_details">
+                <div class="icon_wrap flex-all-center">
+                    <div class="forecast_icon"><img src="" id="weather-icon" alt=""></div>
+                    <p></p>
+                </div>
+                
+                <div class="temperature margin-10">Temperature: <span>29</span>&deg;C</div>
+                <div class="humidity margin-10">Humidity: <span>23.2</span></div>
+            </div>
+        </div>
+    </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
